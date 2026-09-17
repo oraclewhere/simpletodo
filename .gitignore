@@ -1,0 +1,18 @@
+# 虚拟环境
+.venv/
+venv_build/
+
+# Python
+__pycache__/
+*.pyc
+
+# 用户数据（不应进仓库）
+todos.json
+config.json
+
+# 构建产物
+build/
+dist/
+
+# Claude Code 本地配置与 hooks（不公开发布：hooks 会以完整用户权限执行 shell）
+.claude/
